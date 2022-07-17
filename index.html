@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academlo Store</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./imagenes/favicon.png">
+</head>
+<body>
+
+    <!-- <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="load__gif">
+            <title>Academlo Logo</title>
+            <g>
+              <g>
+                <path d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                </path>
+                <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                </path>
+              </g>
+            </g>
+          </svg>
+    </div> -->
+
+    <header class=" header header_scroll" id="Home">
+        <nav class="header-container">
+            <a href="#" class="nav-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="nav__logo-icon">
+                    <title>Academlo Logo</title>
+                    <g>
+                      <g>
+                        <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                        </path>
+                      </g>
+                    </g>
+                  </svg>
+                  Store
+            </a>
+
+            <div class="menu">
+                <ul class="list">
+                    <li class="item"><a href="#Home" class="link_home">Home</a></li>
+                    <li class="item"><a href="#Products" class="link_Products">Products</a></li>
+                </ul>
+                <div></div>
+            </div>
+    
+        </nav>
+    </header>
+
+    
+    <div class="cart show-cart">
+        
+        <h2 class="cart_title">My Cart</h2>
+
+        <div>
+            <div class="carro_vacio">
+                <img class="img-empty" src="./imagenes/empty-cart.png" alt="img-empty">
+                <h2>Your cart is empty</h2>
+                <p>You can add items to your cart by clicking on the " " button on the product page.</p>
+            </div>
+        </div>
+
+        <div class="cart-prices">
+            <span>
+                <span>0</span>
+                Items
+            </span>
+            <span>$0.00</span>
+        </div>
+
+        <div class="button cart-button">
+            <button>Checkout</button>
+        </div>
+    </div>
+    
+
+    <main class="main">
+        <section class="home">
+            <div class="container-home container grid">
+                <div class="home-img">
+                    <img src="./imagenes/home.png" alt="img_home">
+                    <div>
+                        <img id="carritoCompras" class="imagen-carrito" src="./imagenes/png-clipart-shopping-cart-shopping-cart.png" alt="">
+                        <div>
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-home">
+                    <h1 class="home-title">
+                        New Sweatshirt
+                        <br>
+                        COLLECTIONS 2022
+                    </h1>
+                    <P>Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</P>
+                    <span class="home-prices">$14.00</span>
+                    
+                    <div class="buttons-home">
+                        <a href="#Discover" class="button-small">Discover</a>
+                        <button class="button-big">ADD TO CART</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="Products" class="filters-products">
+            <div>
+                <ul class="filter-list">
+                    <li class="filters-line">
+                        <h3>Show all</h3>
+                        <span>Show all products</span>
+                    </li>
+                    <li class="filters-line">
+                        <h3>Hoodies</h3>
+                        <span>3 products</span>
+                    </li>
+                    <li class="filters-line">
+                        <h3>Shirts</h3>
+                        <span>4 products</span>
+                    </li>
+                    <li class="filters-line">
+                        <h3>Sweatshirt</h3>
+                        <span>4 products</span>
+                    </li>
+                </ul>
+                <div class="sacos-filtro">
+                    <article>
+                        <div class="filter-sacos">
+                            <img src="./imagenes/featured1.png" class="sacos-tamaño" alt="saco_rojo">
+                        </div>
+                        <div class="filtro-info">
+                            <h2>$14.00
+                                <span class="sacos-filtro-info">| Stock: 10</span>
+                            </h2>
+                            <h3 class="sacos-filtro-info-type">Hoodies</h3>
+                            <button>
+                                <i>
+                                    ::before
+                                </i>
+                            </button>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="filter-sacos">
+                            <img src="./imagenes/featured2.png" class="sacos-tamaño" alt="saco_negro">
+                        </div>
+                        <div class="filtro-info">
+                            <h2>$24.00
+                                <span class="sacos-filtro-info">| Stock: 15</span>
+                            </h2>
+                            <h3 class="sacos-filtro-info-type">Shirts</h3>
+                            <button>
+                                <i>
+                                    ::before
+                                </i>
+                            </button>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="filter-sacos">
+                            <img src="./imagenes/featured3.png" class="sacos-tamaño" alt="saco_blanco">
+                        </div>
+                        <div class="filtro-info">
+                            <h2>$24.00
+                                <span class="sacos-filtro-info">| Stock: 20</span>
+                            </h2>
+                            <h3 class="sacos-filtro-info-type">Sweatshirt</h3>
+                            <button>
+                                <i>
+                                    ::before
+                                </i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h3>Our information</h3>
+                <ul class="footer-list">
+                    <li>Toluca - Mexico</li>
+                </ul>
+            </div>
+            <div>
+                <h3>About US</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="list-text">Customer Support</a></li>
+                    <li><a href="#" class="list-text">Support Center</a></li>
+                    <li><a href="#" class="list-text">About Us</a></li>
+                    <li><a href="#" class="list-text">Copy Right</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Product</h3>
+                <ul class="footer-list">
+                    <li><a href="#" class="list-text">Hoodies</a></li>
+                    <li><a href="#" class="list-text">Shirts</a></li>
+                    <li><a href="#" class="list-text">Sweatshirts</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Social</h3>
+                <ul class="footer-list">
+                    <a href="http://www.facebook.com">facebook</a>
+                    <a href="http://www.twitter.com">twitter</a>
+                    <a href="http://www.instagram.com">instagram</a>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-text-final">
+            <span> ACADEMLO. ALL rights reserved</span>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
+
